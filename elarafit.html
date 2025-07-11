@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>ElaraFit | Professional Pilates, Yoga & Fitness Equipment</title>
+    <meta name="description" content="Welcome to the official ElaraFit website. We specialize in providing high-quality pilates equipment, non-slip yoga towels, and professional slant boards to enhance your fitness experience and help you achieve your health goals.">
+    <meta name="keywords" content="ElaraFit, pilates equipment, yoga towel, Slant Board, fitness equipment, home gym, workout, yoga, pilates, stretching">
+    <link rel="canonical" href="https://elarafit.com/">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="https://i.imgur.com/jurZVYc.png" type="image/png">
+
+    <!-- Tailwind CSS and Google Fonts -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Use Inter font */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom brand colors */
+        .brand-purple {
+            color: #6d28d9; /* Purple extracted from logo */
+        }
+        .bg-brand-purple {
+            background-color: #6d28d9;
+        }
+        .hover\:bg-brand-purple-dark:hover {
+            background-color: #5b21b6;
+        }
+        .ring-brand-purple {
+            --tw-ring-color: #6d28d9;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header / Navigation -->
+    <header id="header" class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#hero" class="flex items-center">
+                <img src="https://i.imgur.com/jurZVYc.png" alt="ElaraFit Brand Logo" class="h-10 w-auto">
+            </a>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+            <!-- Desktop Menu -->
+            <div id="desktop-menu" class="hidden md:flex items-center space-x-6">
+                <a href="#products" class="text-gray-600 hover:text-brand-purple transition duration-300">Products</a>
+                <a href="#about" class="text-gray-600 hover:text-brand-purple transition duration-300">About Us</a>
+                <a href="#contact" class="text-gray-600 hover:text-brand-purple transition duration-300">Contact</a>
+                <a href="https://www.amazon.com/dp/B0F29R4MFV" target="_blank" rel="noopener noreferrer" class="bg-brand-purple text-white px-4 py-2 rounded-full hover:bg-brand-purple-dark transition duration-300">Shop Now</a>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
+            <a href="#products" class="block py-2 text-gray-600 hover:text-brand-purple">Products</a>
+            <a href="#about" class="block py-2 text-gray-600 hover:text-brand-purple">About Us</a>
+            <a href="#contact" class="block py-2 text-gray-600 hover:text-brand-purple">Contact</a>
+            <a href="https://www.amazon.com/dp/B0F29R4MFV" target="_blank" rel="noopener noreferrer" class="block mt-2 bg-brand-purple text-white text-center px-4 py-2 rounded-full hover:bg-brand-purple-dark">Shop Now</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="relative bg-white">
+            <div class="container mx-auto px-6 py-20 md:py-32 flex flex-col md:flex-row items-center">
+                <!-- Text Content -->
+                <div class="md:w-1/2 text-center md:text-left mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-6xl font-bold text-gray-900 leading-tight mb-4">
+                        <span class="brand-purple">ElaraFit</span><br>Empower Your Fitness Journey
+                    </h1>
+                    <p class="text-lg text-gray-600 mb-8">
+                        Discover our expertly crafted fitness gear, designed to bring elegance, strength, and resilience to every workout.
+                    </p>
+                    <a href="#products" class="bg-brand-purple text-white px-8 py-3 rounded-full font-semibold text-lg hover:bg-brand-purple-dark transition duration-300 transform hover:scale-105">
+                        Explore Our Products
+                    </a>
+                </div>
+                <!-- Image Content -->
+                <div class="md:w-1/2">
+                    <img src="https://i.imgur.com/WGTvoxg.jpg" alt="ElaraFit Pilates Core Kit Display" class="rounded-lg shadow-2xl w-full h-auto">
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="py-20 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Our Featured Products</h2>
+                    <p class="text-gray-600 mt-2">Designed for those who strive for excellence.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                    <!-- Product Card 1: Pilates Equipment -->
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+                        <img src="https://i.imgur.com/WGTvoxg.jpg" alt="ElaraFit Pilates Essentials Kit for Women" class="w-full h-64 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold mb-2 text-gray-900">Pilates Essentials Kit</h3>
+                            <p class="text-gray-600 mb-4">Includes a pilates ring, resistance bands, a core ball, and more to meet all your core training needs from beginner to advanced.</p>
+                            <a href="https://www.amazon.com/dp/B0F29R4MFV" target="_blank" rel="noopener noreferrer" class="font-semibold text-brand-purple hover:underline">Learn More &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Product Card 2: Yoga Towel -->
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+                        <img src="https://i.imgur.com/1lvY9JT.jpg" alt="ElaraFit Hot Yoga Towel" class="w-full h-64 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold mb-2 text-gray-900">Hot Yoga Towel</h3>
+                            <p class="text-gray-600 mb-4">Made with a microfiber waffle weave for ultimate softness and superior grip, keeping you stable and focused during hot yoga.</p>
+                            <a href="https://www.amazon.com/dp/B0F29R4MFV" target="_blank" rel="noopener noreferrer" class="font-semibold text-brand-purple hover:underline">Learn More &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Product Card 3: Slant Board -->
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+                        <img src="https://i.imgur.com/JoEW26g.jpg" alt="ElaraFit Slant Board for Calf Stretching" class="w-full h-64 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold mb-2 text-gray-900">Professional Slant Board</h3>
+                            <p class="text-gray-600 mb-4">Multi-angle adjustable board for effective calf, Achilles, and plantar fascia stretching. An ideal recovery tool for runners and fitness enthusiasts.</p>
+                            <a href="https://www.amazon.com/dp/B0F29R4MFV" target="_blank" rel="noopener noreferrer" class="font-semibold text-brand-purple hover:underline">Learn More &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="py-20 bg-white">
+            <div class="container mx-auto px-6 flex flex-col md:flex-row items-center gap-10">
+                <div class="md:w-1/2">
+                     <img src="https://i.imgur.com/jurZVYc.png" alt="ElaraFit Logo Clean Display" class="max-w-xs mx-auto">
+                </div>
+                <div class="md:w-1/2 text-center md:text-left">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">About ElaraFit</h2>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        At ElaraFit, we believe every movement is a journey of self-improvement. Our mission is to provide fitness products that blend aesthetic design with exceptional functionality, accompanying and inspiring you to explore your body's full potential. From material selection to design, our meticulous attention to detail ensures you have the safest, most comfortable, and effective fitness experience.
+                    </p>
+                    <p class="text-gray-600 leading-relaxed">
+                        Join us and let ElaraFit be your trusted partner in pursuing a healthy lifestyle.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Features Section -->
+        <section class="py-20 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Why Choose Us?</h2>
+                    <p class="text-gray-600 mt-2">Our commitment to the best products and service.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <div class="p-6">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-brand-purple text-white mx-auto mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" /></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Premium Quality</h3>
+                        <p class="text-gray-600">We use only eco-friendly, durable, and skin-safe materials to ensure product safety and longevity.</p>
+                    </div>
+                    <div class="p-6">
+                         <div class="flex items-center justify-center h-16 w-16 rounded-full bg-brand-purple text-white mx-auto mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Ergonomic Design</h3>
+                        <p class="text-gray-600">Each product is thoughtfully engineered to be ergonomic, maximizing workout efficiency and preventing injury.</p>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-brand-purple text-white mx-auto mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Customer Satisfaction</h3>
+                        <p class="text-gray-600">We are dedicated to providing excellent customer service. Your satisfaction is our greatest motivation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-gray-800 text-white">
+        <div class="container mx-auto px-6 py-10">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="md:col-span-1">
+                    <img src="https://i.imgur.com/jurZVYc.png" alt="ElaraFit Logo White" class="h-12 mb-4 brightness-0 invert">
+                    <p class="text-gray-400">Empower Your Fitness Journey.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Site Links</h3>
+                    <ul>
+                        <li class="mb-2"><a href="#hero" class="hover:text-brand-purple transition-colors">Home</a></li>
+                        <li class="mb-2"><a href="#products" class="hover:text-brand-purple transition-colors">Products</a></li>
+                        <li class="mb-2"><a href="#about" class="hover:text-brand-purple transition-colors">About Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact Us</h3>
+                    <p class="text-gray-400 mb-2">Email: support@elarafit.com</p>
+                    <p class="text-gray-400">Follow Us:</p>
+                    <!-- Social Media Icons -->
+                    <div class="flex space-x-4 mt-2">
+                        <a href="#" aria-label="Facebook"><svg class="w-6 h-6 hover:text-brand-purple" fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg></a>
+                        <a href="#" aria-label="Instagram"><svg class="w-6 h-6 hover:text-brand-purple" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.584-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.069-1.645-.069-4.85s.011-3.584.069-4.85c.149-3.225 1.664-4.771 4.919-4.919 1.266.058 1.644.07 4.85.07zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.98 1.281.059 1.689.073 4.948.073s3.667-.014 4.947-.072c4.358-.2 6.78-2.618 6.98-6.98.059-1.281.073-1.689.073-4.948s-.014-3.667-.072-4.947c-.2-4.358-2.618-6.78-6.98-6.98-1.281-.059-1.689-.073-4.948-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44 1.441-.645 1.441-1.44-.645-1.44-1.441-1.44z"/></svg></a>
+                        <a href="#" aria-label="Twitter"><svg class="w-6 h-6 hover:text-brand-purple" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-.424.727-.666 1.584-.666 2.502 0 1.724.88 3.243 2.212 4.135-.816-.026-1.583-.249-2.253-.616v.054c0 2.413 1.714 4.423 3.98 4.882-.416.112-.855.172-1.305.172-.319 0-.629-.031-.929-.086.634 1.974 2.474 3.414 4.654 3.454-1.699 1.33-3.837 2.122-6.163 2.122-.401 0-.797-.023-1.185-.069 2.19 1.404 4.798 2.223 7.602 2.223 9.121 0 14.112-7.563 14.112-14.112 0-.213-.005-.426-.014-.637.967-.699 1.804-1.57 2.468-2.558z"/></svg></a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 border-t border-gray-700 pt-6 text-center text-gray-400 text-sm">
+                <p>&copy; <span id="year"></span> ElaraFit. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for Mobile Menu Toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Set current year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+        
+        // Close mobile menu when a link is clicked
+        mobileMenu.addEventListener('click', (e) => {
+            if (e.target.tagName === 'A') {
+                mobileMenu.classList.add('hidden');
+            }
+        });
+    </script>
+
+</body>
+</html>
